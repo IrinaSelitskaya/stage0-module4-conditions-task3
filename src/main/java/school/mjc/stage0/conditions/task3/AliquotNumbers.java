@@ -2,8 +2,6 @@ package school.mjc.stage0.conditions.task3;
 
 public class AliquotNumbers {
     public void isFirstAliquot(int first, int second) {
-     first=6;
-     second=3;
      if(first%second==0){
       System.out.println("Aliquot");} 
      else{
